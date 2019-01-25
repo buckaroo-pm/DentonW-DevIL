@@ -1,3 +1,4 @@
+targets = [ '//:il', '//:ilu', //:ilut' ]
 
 [[dependency]]
 package = "github.com/buckaroo-pm/luadist-libjpeg"
