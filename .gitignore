@@ -8,3 +8,10 @@ cmake_install.cmake
 /src-ILUT/ILUT.pc
 /DevIL/src-IL/include/config.h
 /CMakeCache.txt
+
+buck-out
+.buckd
+buckaroo
+buckaroo_macros.bzl
+.buckconfig.d
+.buckconfig.local

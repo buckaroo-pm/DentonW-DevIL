@@ -1,0 +1,29 @@
+manifest = "205a2ca6a0aae9dce674e950cecaaff5c3592861a6c9a3aafe0b7c03fd155bf7"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/luadist-libjpeg"
+target = "//:jpeg"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/luadist-libpng"
+target = "//:png"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/luadist-libtiff"
+target = "//:tiff"
+
+[lock."github.com/buckaroo-pm/luadist-libjpeg"]
+versions = [ "branch=master" ]
+revision = "5e6a7dc7789af950e90b00b13ce36c099dc57bb5"
+
+[lock."github.com/buckaroo-pm/luadist-libpng"]
+versions = [ "branch=master" ]
+revision = "73a922fe950715414820b48fbf09810635302be5"
+
+[lock."github.com/buckaroo-pm/luadist-libtiff"]
+versions = [ "branch=master" ]
+revision = "0bbc506dbcc9012cf726dcb338de8c1135858200"
+
+[lock."github.com/buckaroo-pm/madler-zlib"]
+versions = [ "branch=master" ]
+revision = "906f727175ca6a7f8943e375467d6e461a55b68d"
